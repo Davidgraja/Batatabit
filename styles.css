@@ -197,30 +197,38 @@ main .intercambio-monedas .contenedor-title p{
     color:#757575 ;
 }
 
-.container-table .table__top-left{
+.table__top-left{
     border-radius: 10px 0 0 0;
 
 } 
 
-.container-table .table--top-right{
+.table--top-right{
     border-radius:0 10px 0 0 ;
 }
 
 
-.container-table .table__bottom-left{
+ .table__bottom-left{
     border-radius: 0 0 0 10px;
 }
 
-.container-table .table__bottom-rigth {
+.table__bottom-rigth {
     border-radius: 0 0 10px 0;
     
 }
 
-.container-table .table_right{
+.monedas-intercambio .table_right{
     font-weight: 400;
     font-size: 1.4rem;
     line-height: 1.7rem;
 }
+
+.main-container-comisiones .table_right{
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+}
+
+
 
  .down {
      display: inline-block;
@@ -243,4 +251,68 @@ main .intercambio-monedas .contenedor-title p{
    background-repeat: no-repeat;
 }
 
+.date-atualizacion{
+    width: 173px;
+    height: 31px;
+    margin: 0 auto;
+   margin-top: 20px;
+    padding: 10px;
+    background-color: var(--soft-orange);
+    border-radius: 10px;
+    
+}
 
+
+.main-container-comisiones{
+    width: 70%;
+    margin: 0 auto;
+    min-width: 235px;
+    max-width: 300px;
+    height: 360px;
+    font-family: 'Inter',sans-serif;
+    margin-top: 30px;
+}
+
+
+.comisiones-table{
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;   
+}
+
+.comisiones-title{
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    color: var(--secondary-blue);
+    margin-bottom: 15px;
+}
+
+.comisiones-table table{
+    width: 100%;
+    height: 100%;
+}
+
+
+.comisiones-table table td{
+    width: 50%;
+    background-color: var(--just-white);
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color:#757575;
+}
+
+
+.comisiones-date-actualizacion{
+    margin: 0 auto;
+    margin-top:20px ;
+    width: 173px;
+    height: 31px;
+    padding: 10px;
+    background-color: var(--soft-blue) ;
+    border-radius: 10px;
+
+}
