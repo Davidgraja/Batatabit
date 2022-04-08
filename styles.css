@@ -106,7 +106,7 @@ header img{
     margin-left:10px;
     background-image: url('https://i.postimg.cc/Pf8DpM9q/vector-Bottom.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     
 }
 main{
@@ -117,10 +117,12 @@ main{
 
 main .intercambio-monedas{
     width: 100%;
+    height: auto;
     min-width: 320px;
     background-color: #E5E5E5;
     padding-top: 70px;
     text-align: center;
+    padding-bottom: 40px;
 }
 
 main .intercambio-monedas .intercambio-img{
@@ -168,7 +170,11 @@ main .intercambio-monedas .contenedor-title p{
 }
 
 .main-container-monedas .title-container{
-    margin-bottom: 15px;
+    margin: 0 auto 15px auto;
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    text-align: left;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.4rem;
@@ -267,7 +273,7 @@ main .intercambio-monedas .contenedor-title p{
     width: 70%;
     margin: 0 auto;
     min-width: 235px;
-    max-width: 300px;
+    max-width: 500px;
     height: 360px;
     font-family: 'Inter',sans-serif;
     margin-top: 30px;
@@ -283,11 +289,15 @@ main .intercambio-monedas .contenedor-title p{
 }
 
 .comisiones-title{
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    text-align: left;
     font-weight: bold;
     font-size: 1.8rem;
     line-height: 1.8rem;
     color: var(--secondary-blue);
-    margin-bottom: 15px;
+    margin:0 auto 15px auto;
 }
 
 .comisiones-table table{
@@ -315,4 +325,110 @@ main .intercambio-monedas .contenedor-title p{
     background-color: var(--soft-blue) ;
     border-radius: 10px;
 
+}
+
+main .main-container-beneficios{
+    position: relative;
+    width: 100%;
+    min-width: 320px;  
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+}
+
+.logo-batatabit{
+    width: 40px;
+    height: 25px;
+    background-image: url('https://i.postimg.cc/J4ZjgQ5F/logoMain.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:absolute;
+    top: -10px;
+    left: calc(50% - 20px);
+ 
+}
+
+
+.main-container-beneficios div{
+    width: 90%;
+    min-width: 320px;
+    height: auto;
+    text-align: center;
+    margin:50px auto 32px auto;  
+}
+
+.main-container-beneficios div h2{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    margin-bottom: 24px;
+}
+
+.main-container-beneficios div p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+.product-card-detalle{
+    margin: 16px auto;
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    padding: 15px;
+    background-color: var(--black);
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.product-card-title{
+    margin-top: 6px;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    color:var(--just-white);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.product-card-subtitle{
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color:#808080;
+}
+
+.img-detalle{
+    display: inline-block;
+    width: 24px;
+    height: 24px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.clock{
+    background-image: url('https://i.postimg.cc/t49ncGT1/clock.png');
+   
+}
+
+.eye{
+    background-image: url('https://i.postimg.cc/jSvn03wM/eye.png');
+    
+}
+
+.money{
+    background-image: url('https://i.postimg.cc/CLGfJxFT/dollar.png');
+}
+
+.checkout{
+    background-image: url('https://i.postimg.cc/C19frZBY/check-Circle.png');
 }
