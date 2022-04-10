@@ -378,7 +378,7 @@ main .main-container-beneficios{
     width: 90%;
     min-width: 288px;
     max-width: 400px;
-    height: 150px;
+    min-height: 150px;
     padding: 15px;
     background-color: var(--black);
     border-radius: 8px;
@@ -431,4 +431,161 @@ main .main-container-beneficios{
 
 .checkout{
     background-image: url('https://i.postimg.cc/C19frZBY/check-Circle.png');
+}
+
+
+.bitcoin-img-container{
+    width: 100%;
+    height: 50vh;
+    min-width: 320px;
+    background-image: url('https://i.postimg.cc/CKmjS7qM/bitcoinbaby-1.png');
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+
+.bitcoin-img-container h2{
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    text-align: center;
+}
+
+
+.section-planes{
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+    background-color:  #E5E5E5;
+    
+}
+
+ .planes-title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+   margin-bottom: 40px;
+}
+
+.planes-title h2{
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+    padding-bottom: 24px;
+}
+
+.planes-title p{
+   font-weight: 500;
+   font-size: 1.4rem;
+   line-height: 1.8rem;
+   color: #757575; 
+   
+}
+
+.planes-container-cards{
+    position: relative;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height:250px;
+    margin: 50px auto 0;
+    padding: 0 15px;
+    background-color: var(--just-white);
+    border-radius: 15px;
+    box-shadow: 0 7px 8px rgba(0,0,0,0.2);
+}
+
+.planes-informacion{
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+}
+
+.recomendado{
+    width: 100px;
+    height: 30px;
+    background-color: var(--bicoin-Orange);
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+    color: var(--just-white);
+    position: absolute;
+    top: -10px;
+    left: calc(50% - 50px);
+}
+
+.planes-informacion h3{
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #000000;
+
+}
+
+
+.plan-costo{
+    font-weight: bold;
+    font-size: 5.2rem;
+    line-height: 6.3rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+    font-family: 'Inter',sans-serif;
+}
+
+.plan-costo span{
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    position: relative;
+    top: 10px;
+}
+
+.plan-anuncio{
+    font-family:'Inter',sans-serif ;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: #757575 ;
+    margin-bottom: 16px;
+}
+
+
+
+.plan-accion{
+    min-width: 150px;
+    height: 48px;
+    padding: 10px;
+    text-align: left;
+    border: 2px solid var(--bicoin-Orange);
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    background-color: var(--off-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.plan-accion span{
+margin-left: 5px;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('https://i.postimg.cc/NMKHx80p/arrow-Right.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: bottom;
 }
