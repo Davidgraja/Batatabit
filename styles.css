@@ -66,7 +66,7 @@ header img{
     font-weight:bold;
     font-size: 2.4rem;
     line-height: 2.6rem;
-    
+
 }
 
 .header-title-contenedor p{
@@ -78,7 +78,7 @@ header img{
 }
 
 
-.header-title-contenedor .header-buttom{ 
+.header-title-contenedor .header-buttom{
    position: absolute;
    top: 310px;
    left: calc(50% - 118px);
@@ -107,12 +107,12 @@ header img{
     background-image: url('https://i.postimg.cc/Pf8DpM9q/vector-Bottom.png');
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 main{
     width: 100%;
     height: auto;
-    
+
 }
 
 main .intercambio-monedas{
@@ -139,7 +139,7 @@ main .intercambio-monedas .intercambio-img{
 main .intercambio-monedas .contenedor-title{
     width: 80%;
     margin: 0 auto;
-    margin-bottom: 50px;    
+    margin-bottom: 50px;
 }
 
 main .intercambio-monedas .contenedor-title h2{
@@ -149,14 +149,14 @@ main .intercambio-monedas .contenedor-title h2{
     font-weight: bold;
     line-height: 2.6rem;
     color: var(--warm-black);
-    
+
 }
 main .intercambio-monedas .contenedor-title p{
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
     color: #757575;
-    
+
 }
 
 
@@ -206,7 +206,7 @@ main .intercambio-monedas .contenedor-title p{
 .table__top-left{
     border-radius: 10px 0 0 0;
 
-} 
+}
 
 .table--top-right{
     border-radius:0 10px 0 0 ;
@@ -219,7 +219,7 @@ main .intercambio-monedas .contenedor-title p{
 
 .table__bottom-rigth {
     border-radius: 0 0 10px 0;
-    
+
 }
 
 .monedas-intercambio .table_right{
@@ -265,7 +265,7 @@ main .intercambio-monedas .contenedor-title p{
     padding: 10px;
     background-color: var(--soft-orange);
     border-radius: 10px;
-    
+
 }
 
 
@@ -285,7 +285,7 @@ main .intercambio-monedas .contenedor-title p{
     min-width: 230px;
     max-width: 300px;
     height: 250px;
-    margin: 0 auto;   
+    margin: 0 auto;
 }
 
 .comisiones-title{
@@ -330,7 +330,7 @@ main .intercambio-monedas .contenedor-title p{
 main .main-container-beneficios{
     position: relative;
     width: 100%;
-    min-width: 320px;  
+    min-width: 320px;
     height: auto;
     padding: 20px 10px;
     background-color: var(--warm-black);
@@ -346,7 +346,7 @@ main .main-container-beneficios{
     position:absolute;
     top: -10px;
     left: calc(50% - 20px);
- 
+
 }
 
 
@@ -355,7 +355,7 @@ main .main-container-beneficios{
     min-width: 320px;
     height: auto;
     text-align: center;
-    margin:50px auto 32px auto;  
+    margin:50px auto 32px auto;
 }
 
 .main-container-beneficios div h2{
@@ -409,7 +409,7 @@ main .main-container-beneficios{
 .img-detalle{
     display: inline-block;
     width: 24px;
-    height: 24px; 
+    height: 24px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -417,12 +417,12 @@ main .main-container-beneficios{
 
 .clock{
     background-image: url('https://i.postimg.cc/t49ncGT1/clock.png');
-   
+
 }
 
 .eye{
     background-image: url('https://i.postimg.cc/jSvn03wM/eye.png');
-    
+
 }
 
 .money{
