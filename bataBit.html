@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./table.css" media="(min-width:930px)">
   </head>
   <body>
     <header>
@@ -155,19 +156,56 @@
         </div>
 
         <section class="planes-container-scroll">
+
+           <!--primer plan --> 
           <article class="planes-container-cards">
-            <p class="recomendado">Recomendado</p>
+            <p class="planes recomendado">Recomendado</p>
             <div class="planes-informacion">
-              <h3>Pago anual</h3>
+              <h3>Pago Anual</h3>
               <p class="plan-costo"><span>$</span>99</p>
               <p class="plan-anuncio">*Ahorras $129 comparado al plan mensual.</p>
               <button class="plan-accion">Escoge este <span></span></button>
             </div>
           </article>
+          <!--segundo plan --> 
+          <article class="planes-container-cards">
+            <p class=" planes basico">Basico</p>
+            <div class="planes-informacion">
+              <h3>Pago Mensual</h3>
+              <p class="plan-costo"><span>$</span>19</p>
+              <p class="plan-anuncio">*Plan basico pero con acceso a todas las ventajas.</p>
+              <button class="plan-accion">Escoge este <span></span></button>
+            </div>
+          </article>
+
+          <!--tercer plan--> 
+          <article class="planes-container-cards " id="ilimitado">
+            <p class=" planes ilimitado">Ilimitado</p>
+            <div class="planes-informacion">
+              <h3>Pago Ilimitado</h3>
+              <p class="plan-costo"><span>$</span>199</p>
+              <p class="plan-anuncio">*Exclusiva para los primeros 100 clientes con un precio especial.</p>
+              <button class="plan-accion">Escoge este <span></span></button>
+            </div>
+          </article>
+
+
+
         </section>
       </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <section class="left">
+        <ul>
+          <li><a href="#">Linkedin</a></li>
+          <li><a href="#">Crunchbase</a></li>
+          <li><a href="#">Hackernews</a></li>
+        </ul>
+      </section>
+      <section class="right">
+        <img src="https://i.postimg.cc/9fy66QWX/Group-18.png" alt="Logo de Batatabit 2020">
+      </section>
+    </footer>
   </body>
 </html>

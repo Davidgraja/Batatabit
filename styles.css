@@ -159,6 +159,13 @@ main .intercambio-monedas .contenedor-title p{
     
 }
 
+.monedas-intercambio {
+    display: flex;
+    overflow-x:scroll ;
+    overscroll-behavior-x: contain;
+    scroll-snap-type:  x proximity;
+
+}
 
 .main-container-monedas{
     width: 70%;
@@ -167,6 +174,7 @@ main .intercambio-monedas .contenedor-title p{
     height: 360px;
     margin: 0 auto;
     font-family: 'Inter', sans-serif;
+    scroll-snap-align: center;
 }
 
 .main-container-monedas .title-container{
@@ -276,7 +284,8 @@ main .intercambio-monedas .contenedor-title p{
     max-width: 500px;
     height: 360px;
     font-family: 'Inter',sans-serif;
-    margin-top: 30px;
+    scroll-snap-align: center;
+    
 }
 
 
@@ -298,6 +307,7 @@ main .intercambio-monedas .contenedor-title p{
     line-height: 1.8rem;
     color: var(--secondary-blue);
     margin:0 auto 15px auto;
+    height: 24px;
 }
 
 .comisiones-table table{
@@ -457,7 +467,7 @@ main .main-container-beneficios{
 .section-planes{
     width: 100%;
     min-width: 320px;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
     text-align: center;
     background-color:  #E5E5E5;
     
@@ -490,15 +500,18 @@ main .main-container-beneficios{
 
 .planes-container-cards{
     position: relative;
+    scroll-snap-align: center;
     width: 70%;
-    min-width: 230px;
+    min-width: 190px;
     max-width: 300px;
     height:250px;
-    margin: 50px auto 0;
+    margin: 50px 5px 0;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 15px;
     box-shadow: 0 7px 8px rgba(0,0,0,0.2);
+    margin-left: 10px;
+   
 }
 
 .planes-informacion{
@@ -507,10 +520,11 @@ main .main-container-beneficios{
     padding-top: 30px;
 }
 
-.recomendado{
+/*diseño general de las targetas planes */
+
+.planes{
     width: 100px;
     height: 30px;
-    background-color: var(--bicoin-Orange);
     border-radius: 6px;
     padding: 8px;
     font-size: 1.2rem;
@@ -588,4 +602,76 @@ margin-left: 5px;
     background-repeat: no-repeat;
     background-size: cover;
     vertical-align: bottom;
+}
+/*primer plan*/
+
+.recomendado{
+    background-color: var(--bicoin-Orange);
+}
+
+/* segundo plan */
+
+.basico{
+
+    background-color: rgba(0,00,255,0.9);
+    
+}
+
+/*tercer plan*/
+
+
+/* sobre escritura de los estios al tercer plan */
+
+#ilimitado{
+    background-color: var(--warm-black);
+}
+
+#ilimitado .ilimitado{
+    background-color: gray;
+}
+#ilimitado .planes-informacion h3{
+    color: var(--just-white);
+}
+#ilimitado .planes-informacion .plan-costo{
+    color: var(--just-white);
+}
+
+
+/* scrooll  de las cards*/
+.planes-container-scroll{
+    display: flex;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;   
+}
+
+footer{
+    width: 100%;
+    min-width: 320px;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--bicoin-Orange);
+}
+
+footer section{
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+footer .left ul {
+    list-style: none;
+}
+footer section ul li{
+    margin-bottom: 10px;
+}
+
+footer section ul a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: var(--just-white);
 }

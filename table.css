@@ -1,0 +1,15 @@
+
+.monedas-intercambio{
+    display:  flex;
+    width: 930px;
+    margin: 0 auto;
+}
+.product-cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+.planes-container-scroll{
+    justify-content: center;
+}
